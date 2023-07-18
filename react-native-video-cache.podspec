@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'KTVHTTPCache', :git => 'https://github.com/QiuYeHong90/KTVHTTPCache.git',:tag=>'3.0.1'
+  s.dependency 'KTVHTTPCache'
   # ...
   # s.dependency "..."
 end
